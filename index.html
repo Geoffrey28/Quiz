@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>The Quizz</title>
+  </head>
+  <body>
+    <section class="home">
+      <h1 class="home_title">The Quizz</h1>
+      <p class="home_text">Teste tes connaissances</p>
+      <div class="home_select">
+        <div class="home_select_items home_select_football">
+          <img class="home_select_img" src="img/football.jpg" alt="football">
+          <p>Football</p>
+        </div>
+        <div class="home_select_items home_select_autosports">
+          <img class="home_select_img" src="img/sports_auto.jpg" alt="sports automobiles">
+          <p>Sports auto</p>
+        </div>
+        <div class="home_select_items home_select_animals">
+          <img class="home_select_img" src="img/animaux.jpg" alt="Animaux">
+          <p>Animaux</p>
+        </div>
+        <div class="home_select_items home_select_fun">
+          <img class="home_select_img" src="img/fun.jpg" alt="Fun">
+          <p>Fun</p>
+        </div>
+      </div>
+      <button class="home_start" type="button" name="start">Start</button>
+    </section>
+    <section class="game hide">
+      <h2 class="game_cat">Sports</h2>
+      <div class="game_head">
+        <p class="game_step"><span>1</span>/10</p>
+        <p class="game_timer"><span>5</span>s</p>
+      </div>
+      <p class="game_question">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <div class="game_answers">
+        <div class="game_answers_items">
+            <p class="game_answers_text">C.Ronaldo</p>
+        </div>
+        <div class="game_answers_items">
+            <p class="game_answers_text">L.Messi</p>
+        </div>
+        <div class="game_answers_items">
+            <p class="game_answers_text">Neymar JR</p>
+        </div>
+        <div class="game_answers_items">
+            <p class="game_answers_text">K.Mbappé</p>
+        </div>
+      </div>
+      <div class="game_score">
+        <p>Score : <span>2</span></p>
+      </div>
+    </section>
+    <section class="end hide">
+      <h2 class="home_title">The Quizz</h2>
+      <div class="end_result">
+        <p class="end_result_text">Ton score :</p>
+        <p><span>2</span>/10</p>
+      </div>
+      <div class="end_commentary">
+        <p class="end_commentary_text">Tu es mauvais</p>
+      </div>
+      <button class="end_button" type="button" name="button">Accueil</button>
+    </section>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
