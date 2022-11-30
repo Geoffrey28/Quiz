@@ -3,16 +3,26 @@ var game = document.querySelector('.game');
 var end = document.querySelector('.end');
 var start = document.querySelector('.home_start');
 var question = document.querySelector('.game_question');
-var answers = document.querySelectorAll('.game_answers_text');
-var answer = {};
-var score = document.querySelector('.game_score');
+var answers = document.querySelectorAll('.game_answers_items');
+var hiddenValues = document.querySelectorAll('.hidden_value');
+var selectedQuestion = library[1];
+var verify;
+var score = document.querySelector('.game_score_text');
+var counterScore = 0;
+var steps = document.querySelector('.game_step');
+var step = 1;
 var finalScore = document.querySelector('.end_result');
 var endButton = document.querySelector('.end_button');
+
+window.onload = runGame();
 
 start.addEventListener('click', function() {
   home.classList.toggle('hide');
   game.classList.toggle('hide');
-  answer = {};
+  selectedQuestion = {};
+  counterScore = 0;
+  step = 1;
+  addScore();
   displayGame();
 });
 
@@ -22,5 +32,50 @@ endButton.addEventListener('click', function() {
 })
 
 function displayGame() {
-  answer = {}
+  var rand = Math.floor(Math.random()*library.length);
+  selectedQuestion = library[rand];
+  question.textContent = selectedQuestion.question;
+  for (var i = 0; i < selectedQuestion.answers.length; i++) {
+    answers[i].children[0].textContent = selectedQuestion.answers[i].text;
+    answers[i].children[1].textContent =  selectedQuestion.answers[i].value;
+  }
+}
+
+function runGame() {
+  for (var i = 0; i < answers.length; i++) {
+    answers[i].addEventListener('click', function() {
+      verify = this.children[1].textContent;
+      if (verify === "true") {
+        counterScore++;
+        addScore();
+        displayGame();
+        console.log('ok');
+      } else {
+        displayGame();
+        console.log('nok');
+      }
+      stepCount();
+    });
+  }
+}
+
+function finishGame() {
+  finalScore.children[1].textContent = counterScore + "/10";
+  game.classList.toggle('hide');
+  end.classList.toggle('hide');
+}
+
+function addScore() {
+  console.log(score.children[0]);
+  score.children[0].textContent = counterScore;
+}
+
+function stepCount() {
+  if (step < 10) {
+    step++;
+  } else {
+    step = 1;
+    finishGame()
+  }
+  steps.children[0].textContent = step;
 }
