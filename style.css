@@ -225,16 +225,16 @@ body, html {
   }
 
   .end_result {
-    font-size: 6rem;
-    margin: 20% 0;
+    font-size: 3rem;
+    margin: 10% 0 5% 0;
   }
 
   .end_result_text {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .end_commentary {
-    font-size: 3rem;
-    margin: 0 15% 10% 15%;
+    font-size: 1rem;
+    margin: 0% 10% 5% 10%;
   }
 }
