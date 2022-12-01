@@ -3,10 +3,10 @@ var game = document.querySelector('.game');
 var end = document.querySelector('.end');
 var homeSelect = document.querySelectorAll('.home_select_items');
 var start = document.querySelector('.home_start');
+var alert = document.querySelector('.alert_message');
 var question = document.querySelector('.game_question');
 var answers = document.querySelectorAll('.game_answers_items');
 var hiddenValues = document.querySelectorAll('.hidden_value');
-var selectedCat;
 var selectedCatQuestions = [];
 var selectedQuestion = library[1];
 var verify;
@@ -22,13 +22,18 @@ var endButton = document.querySelector('.end_button');
 window.onload = selectCat(), runGame();
 
 start.addEventListener('click', function() {
-  home.classList.toggle('hide');
-  game.classList.toggle('hide');
-  selectedQuestion = {};
-  counterScore = 0;
-  step = 1;
-  addScore();
-  displayGame();
+console.log(selectedCatQuestions);
+  if (selectedCatQuestions.length > 0) {
+    home.classList.toggle('hide');
+    game.classList.toggle('hide');
+    selectedQuestion = {};
+    counterScore = 0;
+    step = 1;
+    addScore();
+    displayGame();
+  } else {
+    alert.textContent = "Sélectionne une catégorie stp !";
+  }
 });
 
 endButton.addEventListener('click', function() {
@@ -67,9 +72,9 @@ function runGame() {
 }
 
 function selectCat() {
-  console.log(homeSelect);
   for (var a = 0; a < homeSelect.length; a++) {
     homeSelect[a].addEventListener('click', function() {
+      alert.textContent = '';
       selectedCatQuestions = [];
       for (var c = 0; c < homeSelect.length; c++) {
         homeSelect[c].classList.remove('selected_cat');
@@ -80,7 +85,6 @@ function selectCat() {
           selectedCatQuestions.push(library[b]);
         };
       }
-      console.log(selectedCatQuestions);
     });
   }
 }
