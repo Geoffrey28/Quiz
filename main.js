@@ -7,6 +7,7 @@ var answers = document.querySelectorAll('.game_answers_items');
 var hiddenValues = document.querySelectorAll('.hidden_value');
 var selectedQuestion = library[1];
 var verify;
+var noDoublon = [];
 var score = document.querySelector('.game_score_text');
 var counterScore = 0;
 var steps = document.querySelector('.game_step');
@@ -33,6 +34,12 @@ endButton.addEventListener('click', function() {
 
 function displayGame() {
   var rand = Math.floor(Math.random()*library.length);
+  noDoublon.push(rand);
+  for (var i = 0; i < noDoublon.length; i++) {
+    if (noDoublon[i] === rand ) {
+      var rand = Math.floor(Math.random()*library.length);
+    }
+  }
   selectedQuestion = library[rand];
   question.textContent = selectedQuestion.question;
   for (var i = 0; i < selectedQuestion.answers.length; i++) {
@@ -49,10 +56,8 @@ function runGame() {
         counterScore++;
         addScore();
         displayGame();
-        console.log('ok');
       } else {
         displayGame();
-        console.log('nok');
       }
       stepCount();
     });
@@ -66,7 +71,6 @@ function finishGame() {
 }
 
 function addScore() {
-  console.log(score.children[0]);
   score.children[0].textContent = counterScore;
 }
 
