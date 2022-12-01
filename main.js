@@ -22,7 +22,6 @@ var endButton = document.querySelector('.end_button');
 window.onload = selectCat(), runGame();
 
 start.addEventListener('click', function() {
-console.log(selectedCatQuestions);
   if (selectedCatQuestions.length > 0) {
     home.classList.toggle('hide');
     game.classList.toggle('hide');
@@ -76,9 +75,7 @@ function selectCat() {
     homeSelect[a].addEventListener('click', function() {
       alert.textContent = '';
       selectedCatQuestions = [];
-      for (var c = 0; c < homeSelect.length; c++) {
-        homeSelect[c].classList.remove('selected_cat');
-      }
+      resetClassSelect();
       this.classList.toggle('selected_cat');
       for (var b = 0; b < library.length; b++) {
         if (library[b].cat === this.children[1].textContent) {
@@ -89,12 +86,19 @@ function selectCat() {
   }
 }
 
+function resetClassSelect() {
+  for (var c = 0; c < homeSelect.length; c++) {
+    homeSelect[c].classList.remove('selected_cat');
+  }
+}
+
 function finishGame() {
   finalScore.children[1].textContent = counterScore + "/10";
   endCommentary.textContent = end_commentary_data[counterScore];
   game.classList.toggle('hide');
   end.classList.toggle('hide');
   noDoublon = [];
+  resetClassSelect();
 }
 
 function addScore() {
