@@ -1,10 +1,13 @@
 var home = document.querySelector('.home');
 var game = document.querySelector('.game');
 var end = document.querySelector('.end');
+var homeSelect = document.querySelectorAll('.home_select_items');
 var start = document.querySelector('.home_start');
 var question = document.querySelector('.game_question');
 var answers = document.querySelectorAll('.game_answers_items');
 var hiddenValues = document.querySelectorAll('.hidden_value');
+var selectedCat;
+var selectedCatQuestions = [];
 var selectedQuestion = library[1];
 var verify;
 var noDoublon = [];
@@ -15,7 +18,7 @@ var step = 1;
 var finalScore = document.querySelector('.end_result');
 var endButton = document.querySelector('.end_button');
 
-window.onload = runGame();
+window.onload = selectCat(), runGame();
 
 start.addEventListener('click', function() {
   home.classList.toggle('hide');
@@ -33,12 +36,12 @@ endButton.addEventListener('click', function() {
 })
 
 function displayGame() {
-  var rand = Math.floor(Math.random()*library.length);
+  var rand = Math.floor(Math.random()*selectedCatQuestions.length);
   while(noDoublon.includes(rand) & step < 10) {
-    rand = Math.floor(Math.random()*library.length);
+    rand = Math.floor(Math.random()*selectedCatQuestions.length);
   }
   noDoublon.push(rand);
-  selectedQuestion = library[rand];
+  selectedQuestion = selectedCatQuestions[rand];
   question.textContent = selectedQuestion.question;
   for (var i = 0; i < selectedQuestion.answers.length; i++) {
     answers[i].children[0].textContent = selectedQuestion.answers[i].text;
@@ -58,6 +61,25 @@ function runGame() {
         displayGame();
       }
       stepCount();
+    });
+  }
+}
+
+function selectCat() {
+  console.log(homeSelect);
+  for (var a = 0; a < homeSelect.length; a++) {
+    homeSelect[a].addEventListener('click', function() {
+      selectedCatQuestions = [];
+      for (var c = 0; c < homeSelect.length; c++) {
+        homeSelect[c].classList.remove('selected_cat');
+      }
+      this.classList.toggle('selected_cat');
+      for (var b = 0; b < library.length; b++) {
+        if (library[b].cat === this.children[1].textContent) {
+          selectedCatQuestions.push(library[b]);
+        };
+      }
+      console.log(selectedCatQuestions);
     });
   }
 }

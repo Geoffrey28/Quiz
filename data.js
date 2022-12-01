@@ -1,4 +1,7 @@
 var library = [
+
+// FOOTBALL
+
   {
     "question": "Quel est le surnom de l'équipe de france ?",
     "cat": "Football",
@@ -230,4 +233,242 @@ var library = [
       },
     ]
   },
+
+// ANIMAUX
+
+  {
+    "question": "Quel est le bébé de la vache ?",
+    "cat": "Animaux",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Ecremeuh",
+        "value": false
+      },
+      {
+        "text": "Emmanuel Macron",
+        "value": true
+      },
+      {
+        "text": "Le Veau",
+        "value": true
+      },
+      {
+        "text": "Booba",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le bébé de la vache ?",
+    "cat": "Animaux",
+    "id": 1,
+    "answers": [
+      {
+        "text": "Ecremeuh",
+        "value": false
+      },
+      {
+        "text": "Emmanuel Macron",
+        "value": true
+      },
+      {
+        "text": "Le Veau",
+        "value": true
+      },
+      {
+        "text": "Booba",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le bébé de la vache ?",
+    "cat": "Animaux",
+    "id": 2,
+    "answers": [
+      {
+        "text": "Ecremeuh",
+        "value": false
+      },
+      {
+        "text": "Emmanuel Macron",
+        "value": true
+      },
+      {
+        "text": "Le Veau",
+        "value": true
+      },
+      {
+        "text": "Booba",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le bébé de la vache ?",
+    "cat": "Animaux",
+    "id": 3,
+    "answers": [
+      {
+        "text": "Ecremeuh",
+        "value": false
+      },
+      {
+        "text": "Emmanuel Macron",
+        "value": true
+      },
+      {
+        "text": "Le Veau",
+        "value": true
+      },
+      {
+        "text": "Booba",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le bébé de la vache ?",
+    "cat": "Animaux",
+    "id": 4,
+    "answers": [
+      {
+        "text": "Ecremeuh",
+        "value": false
+      },
+      {
+        "text": "Emmanuel Macron",
+        "value": true
+      },
+      {
+        "text": "Le Veau",
+        "value": true
+      },
+      {
+        "text": "Booba",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le bébé de la vache ?",
+    "cat": "Animaux",
+    "id": 5,
+    "answers": [
+      {
+        "text": "Ecremeuh",
+        "value": false
+      },
+      {
+        "text": "Emmanuel Macron",
+        "value": true
+      },
+      {
+        "text": "Le Veau",
+        "value": true
+      },
+      {
+        "text": "Booba",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le bébé de la vache ?",
+    "cat": "Animaux",
+    "id": 6,
+    "answers": [
+      {
+        "text": "Ecremeuh",
+        "value": false
+      },
+      {
+        "text": "Emmanuel Macron",
+        "value": true
+      },
+      {
+        "text": "Le Veau",
+        "value": true
+      },
+      {
+        "text": "Booba",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le bébé de la vache ?",
+    "cat": "Animaux",
+    "id": 7,
+    "answers": [
+      {
+        "text": "Ecremeuh",
+        "value": false
+      },
+      {
+        "text": "Emmanuel Macron",
+        "value": true
+      },
+      {
+        "text": "Le Veau",
+        "value": true
+      },
+      {
+        "text": "Booba",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le bébé de la vache ?",
+    "cat": "Animaux",
+    "id": 8,
+    "answers": [
+      {
+        "text": "Ecremeuh",
+        "value": false
+      },
+      {
+        "text": "Emmanuel Macron",
+        "value": true
+      },
+      {
+        "text": "Le Veau",
+        "value": true
+      },
+      {
+        "text": "Booba",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le bébé de la vache ?",
+    "cat": "Animaux",
+    "id": 9,
+    "answers": [
+      {
+        "text": "Ecremeuh",
+        "value": false
+      },
+      {
+        "text": "Emmanuel Macron",
+        "value": true
+      },
+      {
+        "text": "Le Veau",
+        "value": true
+      },
+      {
+        "text": "Booba",
+        "value": false
+      },
+    ]
+  },
+
+// SPORTS AUTO
+
+
+
 ];
