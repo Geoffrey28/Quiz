@@ -16,6 +16,7 @@ var counterScore = 0;
 var steps = document.querySelector('.game_step');
 var step = 1;
 var finalScore = document.querySelector('.end_result');
+var endCommentary = document.querySelector('.end_commentary_text');
 var endButton = document.querySelector('.end_button');
 
 window.onload = selectCat(), runGame();
@@ -86,6 +87,7 @@ function selectCat() {
 
 function finishGame() {
   finalScore.children[1].textContent = counterScore + "/10";
+  endCommentary.textContent = end_commentary_data[counterScore];
   game.classList.toggle('hide');
   end.classList.toggle('hide');
   noDoublon = [];

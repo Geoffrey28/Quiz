@@ -1,3 +1,18 @@
+var end_commentary_data = [
+  "0",
+  "Au moins on ne peut pas dire que tu ne sais rien...",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10"
+]
+
+
 var library = [
 
 // FOOTBALL
