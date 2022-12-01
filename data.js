@@ -225,7 +225,7 @@ var library = [
       },
       {
         "text": "Ilan Meslier",
-        "value": true
+        "value": false
       },
       {
         "text": "Neal Maupay",
@@ -233,6 +233,7 @@ var library = [
       },
     ]
   },
+
 
 // ANIMAUX
 
@@ -247,7 +248,7 @@ var library = [
       },
       {
         "text": "Emmanuel Macron",
-        "value": true
+        "value": false
       },
       {
         "text": "Le Veau",
@@ -270,7 +271,7 @@ var library = [
       },
       {
         "text": "Emmanuel Macron",
-        "value": true
+        "value": false
       },
       {
         "text": "Le Veau",
@@ -293,7 +294,7 @@ var library = [
       },
       {
         "text": "Emmanuel Macron",
-        "value": true
+        "value": false
       },
       {
         "text": "Le Veau",
@@ -316,7 +317,7 @@ var library = [
       },
       {
         "text": "Emmanuel Macron",
-        "value": true
+        "value": false
       },
       {
         "text": "Le Veau",
@@ -339,7 +340,7 @@ var library = [
       },
       {
         "text": "Emmanuel Macron",
-        "value": true
+        "value": false
       },
       {
         "text": "Le Veau",
@@ -362,7 +363,7 @@ var library = [
       },
       {
         "text": "Emmanuel Macron",
-        "value": true
+        "value": false
       },
       {
         "text": "Le Veau",
@@ -385,7 +386,7 @@ var library = [
       },
       {
         "text": "Emmanuel Macron",
-        "value": true
+        "value": false
       },
       {
         "text": "Le Veau",
@@ -408,7 +409,7 @@ var library = [
       },
       {
         "text": "Emmanuel Macron",
-        "value": true
+        "value": false
       },
       {
         "text": "Le Veau",
@@ -431,7 +432,7 @@ var library = [
       },
       {
         "text": "Emmanuel Macron",
-        "value": true
+        "value": false
       },
       {
         "text": "Le Veau",
@@ -454,7 +455,7 @@ var library = [
       },
       {
         "text": "Emmanuel Macron",
-        "value": true
+        "value": false
       },
       {
         "text": "Le Veau",
@@ -467,8 +468,472 @@ var library = [
     ]
   },
 
+
 // SPORTS AUTO
 
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Sports Auto",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Sports Auto",
+    "id": 1,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Sports Auto",
+    "id": 2,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Sports Auto",
+    "id": 3,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Sports Auto",
+    "id": 4,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Sports Auto",
+    "id": 5,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Sports Auto",
+    "id": 6,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Sports Auto",
+    "id": 7,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Sports Auto",
+    "id": 8,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Sports Auto",
+    "id": 9,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
 
+
+// POKEMON
+
+  {
+    "question": "Quel est le premier pokemon de Sacha ?",
+    "cat": "Pokémon",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Salamèche",
+        "value": false
+      },
+      {
+        "text": "Pikachu",
+        "value": true
+      },
+      {
+        "text": "Carapuce",
+        "value": false
+      },
+      {
+        "text": "Bulbizarre",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le premier pokemon de Sacha ?",
+    "cat": "Pokémon",
+    "id": 1,
+    "answers": [
+      {
+        "text": "Salamèche",
+        "value": false
+      },
+      {
+        "text": "Pikachu",
+        "value": true
+      },
+      {
+        "text": "Carapuce",
+        "value": false
+      },
+      {
+        "text": "Bulbizarre",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le premier pokemon de Sacha ?",
+    "cat": "Pokémon",
+    "id": 2,
+    "answers": [
+      {
+        "text": "Salamèche",
+        "value": false
+      },
+      {
+        "text": "Pikachu",
+        "value": true
+      },
+      {
+        "text": "Carapuce",
+        "value": false
+      },
+      {
+        "text": "Bulbizarre",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le premier pokemon de Sacha ?",
+    "cat": "Pokémon",
+    "id": 3,
+    "answers": [
+      {
+        "text": "Salamèche",
+        "value": false
+      },
+      {
+        "text": "Pikachu",
+        "value": true
+      },
+      {
+        "text": "Carapuce",
+        "value": false
+      },
+      {
+        "text": "Bulbizarre",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le premier pokemon de Sacha ?",
+    "cat": "Pokémon",
+    "id": 4,
+    "answers": [
+      {
+        "text": "Salamèche",
+        "value": false
+      },
+      {
+        "text": "Pikachu",
+        "value": true
+      },
+      {
+        "text": "Carapuce",
+        "value": false
+      },
+      {
+        "text": "Bulbizarre",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le premier pokemon de Sacha ?",
+    "cat": "Pokémon",
+    "id": 5,
+    "answers": [
+      {
+        "text": "Salamèche",
+        "value": false
+      },
+      {
+        "text": "Pikachu",
+        "value": true
+      },
+      {
+        "text": "Carapuce",
+        "value": false
+      },
+      {
+        "text": "Bulbizarre",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le premier pokemon de Sacha ?",
+    "cat": "Pokémon",
+    "id": 6,
+    "answers": [
+      {
+        "text": "Salamèche",
+        "value": false
+      },
+      {
+        "text": "Pikachu",
+        "value": true
+      },
+      {
+        "text": "Carapuce",
+        "value": false
+      },
+      {
+        "text": "Bulbizarre",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le premier pokemon de Sacha ?",
+    "cat": "Pokémon",
+    "id": 7,
+    "answers": [
+      {
+        "text": "Salamèche",
+        "value": false
+      },
+      {
+        "text": "Pikachu",
+        "value": true
+      },
+      {
+        "text": "Carapuce",
+        "value": false
+      },
+      {
+        "text": "Bulbizarre",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le premier pokemon de Sacha ?",
+    "cat": "Pokémon",
+    "id": 8,
+    "answers": [
+      {
+        "text": "Salamèche",
+        "value": false
+      },
+      {
+        "text": "Pikachu",
+        "value": true
+      },
+      {
+        "text": "Carapuce",
+        "value": false
+      },
+      {
+        "text": "Bulbizarre",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le premier pokemon de Sacha ?",
+    "cat": "Pokémon",
+    "id": 9,
+    "answers": [
+      {
+        "text": "Salamèche",
+        "value": false
+      },
+      {
+        "text": "Pikachu",
+        "value": true
+      },
+      {
+        "text": "Carapuce",
+        "value": false
+      },
+      {
+        "text": "Bulbizarre",
+        "value": false
+      },
+    ]
+  },
 
 ];
