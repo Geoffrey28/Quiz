@@ -34,12 +34,10 @@ endButton.addEventListener('click', function() {
 
 function displayGame() {
   var rand = Math.floor(Math.random()*library.length);
-  noDoublon.push(rand);
-  for (var i = 0; i < noDoublon.length; i++) {
-    if (noDoublon[i] === rand ) {
-      var rand = Math.floor(Math.random()*library.length);
-    }
+  while(noDoublon.includes(rand) & step < 10) {
+    rand = Math.floor(Math.random()*library.length);
   }
+  noDoublon.push(rand);
   selectedQuestion = library[rand];
   question.textContent = selectedQuestion.question;
   for (var i = 0; i < selectedQuestion.answers.length; i++) {
@@ -68,6 +66,7 @@ function finishGame() {
   finalScore.children[1].textContent = counterScore + "/10";
   game.classList.toggle('hide');
   end.classList.toggle('hide');
+  noDoublon = [];
 }
 
 function addScore() {

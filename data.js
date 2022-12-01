@@ -2,7 +2,7 @@ var library = [
   {
     "question": "Quel est le surnom de l'équipe de france ?",
     "cat": "Football",
-    "id": 1,
+    "id": 0,
     "answers": [
       {
         "text": "les Verts",
@@ -25,7 +25,7 @@ var library = [
   {
     "question": "Quel est la devise de l'équipe de france ?",
     "cat": "Football",
-    "id": 2,
+    "id": 1,
     "answers": [
       {
         "text": "Tous en grève !",
@@ -49,7 +49,7 @@ var library = [
   {
     "question": "Dans quel club n'a jamais joué Neymar ?",
     "cat": "Football",
-    "id": 3,
+    "id": 2,
     "answers": [
       {
         "text": "Club Atlético Boca Juniors",
@@ -72,7 +72,7 @@ var library = [
   {
     "question": "Qui a gagné la coupe du monde de 2002 ?",
     "cat": "Football",
-    "id": 4,
+    "id": 3,
     "answers": [
       {
         "text": "France",
@@ -95,7 +95,7 @@ var library = [
   {
     "question": "Combien de spectateurs peut accueillir le stade du Real Madrid (Santiago Bernabéu) ?",
     "cat": "Football",
-    "id": 5,
+    "id": 4,
     "answers": [
       {
         "text": "450",
@@ -118,7 +118,7 @@ var library = [
   {
     "question": "Qui est le meilleur buteur de l'histoire de la ligue des champions ?",
     "cat": "Football",
-    "id": 6,
+    "id": 5,
     "answers": [
       {
         "text": "L.Messi",
@@ -141,7 +141,7 @@ var library = [
   {
     "question": "Quel pays a organisé la coupe du monde 2010 ?",
     "cat": "Football",
-    "id": 7,
+    "id": 6,
     "answers": [
       {
         "text": "Allemagne",
@@ -164,7 +164,7 @@ var library = [
   {
     "question": "Qui est le président de la FFF (Fédération Française de football) ?",
     "cat": "Football",
-    "id": 8,
+    "id": 7,
     "answers": [
       {
         "text": "Zinédine Zidane",
@@ -187,7 +187,7 @@ var library = [
   {
     "question": "Quel équipe a remporté le premier titre de Premier League ?",
     "cat": "Football",
-    "id": 9,
+    "id": 8,
     "answers": [
       {
         "text": "Manchester United",
@@ -210,7 +210,7 @@ var library = [
   {
     "question": "Quel footballeur a fait insérer dans son contrat avec la Premier League une clause lui interdisant de voyager dans l'espace ?",
     "cat": "Football",
-    "id": 10,
+    "id": 9,
     "answers": [
       {
         "text": "Mohamed Salah",
