@@ -41,24 +41,24 @@ var library = [
     ]
   },
   {
-    "question": "Quel est la devise de l'équipe de france ?",
+    "question": "Quels est le surnoms de l'équipe national des Pays-bas ?",
     "cat": "Football",
     "id": 1,
     "answers": [
       {
-        "text": "Tous en grève !",
+        "text": "Les Raisins",
         "value": false
       },
       {
-        "text": "Viva Algéria",
+        "text": "Les Pamplemousses",
         "value": false
       },
       {
-        "text": "Bonne réponse",
+        "text": "Les Oranjes",
         "value": true
       },
       {
-        "text": "Droit au but !",
+        "text": "Les Mandarines",
         "value": false
       },
     ]
