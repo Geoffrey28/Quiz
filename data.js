@@ -969,232 +969,232 @@ var library = [
 // Musique
 
   {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "question": "Qui est la chanteuse de 'Empire States of Mind' ?",
     "cat": "Musique",
     "id": 0,
     "answers": [
       {
-        "text": "Kylian Mbappé",
+        "text": "Rihanna",
         "value": false
       },
       {
-        "text": "Michaël Schumacher",
+        "text": "Beyoncé",
         "value": false
       },
       {
-        "text": "Lewis Hamilton",
+        "text": "Aya Nakamura",
+        "value": false
+      },
+      {
+        "text": "Alicia Keys",
+        "value": true
+      },
+    ]
+  },
+  {
+    "question": "Qui chante 'No me mirès màs' ?",
+    "cat": "Musique",
+    "id": 1,
+    "answers": [
+      {
+        "text": "Soprano",
+        "value": false
+      },
+      {
+        "text": "Gims",
+        "value": false
+      },
+      {
+        "text": "Kendji Girac",
         "value": true
       },
       {
-        "text": "Christophe Michalak",
+        "text": "M.Pokora",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "question": "Quelle chanson française Shakira a-t-elle reprise ?",
     "cat": "Musique",
-    "id": 0,
+    "id": 2,
     "answers": [
       {
-        "text": "Kylian Mbappé",
+        "text": "La foule",
         "value": false
       },
       {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
+        "text": "Je l'aime à mourir",
         "value": true
       },
       {
-        "text": "Christophe Michalak",
+        "text": "Allumer le feu",
+        "value": false
+      },
+      {
+        "text": "La kiffance",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "question": "Quelle chanteuse utilise la flûte de Pan en introduction de la principale chanson qui l'a faite connaître ?",
     "cat": "Musique",
-    "id": 0,
+    "id": 3,
     "answers": [
       {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
+        "text": "Shakira",
         "value": true
       },
       {
-        "text": "Christophe Michalak",
+        "text": "Jessie J",
+        "value": false
+      },
+      {
+        "text": "Juicy J",
+        "value": true
+      },
+      {
+        "text": "Rihanna",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "question": "Qui a intérprété  'Molotov 4' aux Victoires de la Musique 2006 ?",
     "cat": "Musique",
-    "id": 0,
+    "id": 4,
     "answers": [
       {
-        "text": "Kylian Mbappé",
+        "text": "Salif",
         "value": false
       },
       {
-        "text": "Michaël Schumacher",
+        "text": "Booba",
         "value": false
       },
       {
-        "text": "Lewis Hamilton",
+        "text": "La Fouine",
+        "value": false
+      },
+      {
+        "text": "Sefyu",
+        "value": true
+      },
+    ]
+  },
+  {
+    "question": "Quel rappeur américain a vendu le plus grand nombre d'album depuis les années 2000 ?",
+    "cat": "Musique",
+    "id": 5,
+    "answers": [
+      {
+        "text": "50 Cent",
+        "value": false
+      },
+      {
+        "text": "Jay-Z",
+        "value": false
+      },
+      {
+        "text": "Eminem",
         "value": true
       },
       {
-        "text": "Christophe Michalak",
+        "text": "Lil Wayne",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "question": "Comment s'appelle le film sur Orelsan ?",
     "cat": "Musique",
-    "id": 0,
+    "id": 6,
     "answers": [
       {
-        "text": "Kylian Mbappé",
+        "text": "La flemme",
         "value": false
       },
       {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
+        "text": "Comment c'est loin",
         "value": true
       },
       {
-        "text": "Christophe Michalak",
+        "text": "Perdu d'avance",
+        "value": false
+      },
+      {
+        "text": "Les étoiles vagabondes",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "question": "Combien d'albums studios Johnny Hallyday a-t-il enregistré ?",
     "cat": "Musique",
-    "id": 0,
+    "id": 7,
     "answers": [
       {
-        "text": "Kylian Mbappé",
+        "text": "8",
         "value": false
       },
       {
-        "text": "Michaël Schumacher",
+        "text": "28",
         "value": false
       },
       {
-        "text": "Lewis Hamilton",
-        "value": true
+        "text": "39",
+        "value": false
       },
       {
-        "text": "Christophe Michalak",
+        "text": "51",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "question": "Quelle année est sorti le premier album des Red Hot Chili Peppers?",
     "cat": "Musique",
-    "id": 0,
+    "id": 8,
     "answers": [
       {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
+        "text": "1984",
         "value": true
       },
       {
-        "text": "Christophe Michalak",
+        "text": "1991",
+        "value": false
+      },
+      {
+        "text": "1998",
+        "value": false
+      },
+      {
+        "text": "2004",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "question": "L'album le plus vendu au monde est Thriller de Michaël Jackson sorti en 1982, combien d'exemplaires en ont été vendus  ?",
     "cat": "Musique",
-    "id": 0,
+    "id": 9,
     "answers": [
       {
-        "text": "Kylian Mbappé",
+        "text": "14 milions",
         "value": false
       },
       {
-        "text": "Michaël Schumacher",
+        "text": "28 millions",
         "value": false
       },
       {
-        "text": "Lewis Hamilton",
+        "text": "47 millions",
+        "value": false
+      },
+      {
+        "text": "66 millions",
         "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-  {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Musique",
-    "id": 0,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-  {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Musique",
-    "id": 0,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
       },
     ]
   },
