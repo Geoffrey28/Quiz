@@ -4,6 +4,7 @@ var end = document.querySelector('.end');
 var homeSelect = document.querySelectorAll('.home_select_items');
 var start = document.querySelector('.home_start');
 var alert = document.querySelector('.alert_message');
+var gameCat = document.querySelector('.game_cat');
 var question = document.querySelector('.game_question');
 var answers = document.querySelectorAll('.game_answers_items');
 var hiddenValues = document.querySelectorAll('.hidden_value');
@@ -28,6 +29,7 @@ start.addEventListener('click', function() {
     selectedQuestion = {};
     counterScore = 0;
     step = 1;
+    gameCat.textContent = selectedCatQuestions[0].cat;
     addScore();
     displayGame();
   } else {
