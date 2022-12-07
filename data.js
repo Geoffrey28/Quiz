@@ -268,6 +268,7 @@ var library = [
         "text": "Lorient & Lens",
         "value": true
       },
+    ]
   },
   {
     "question": "Quel joueur allemand a inscrit 16 buts en phase finale de Coupe du monde ?",
@@ -965,11 +966,11 @@ var library = [
   },
 
 
-// SPORTS AUTO
+// Musique
 
   {
     "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Sports Auto",
+    "cat": "Musique",
     "id": 0,
     "answers": [
       {
@@ -992,442 +993,672 @@ var library = [
   },
   {
     "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Sports Auto",
-    "id": 1,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-  {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Sports Auto",
-    "id": 2,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-  {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Sports Auto",
-    "id": 3,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-  {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Sports Auto",
-    "id": 4,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-  {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Sports Auto",
-    "id": 5,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-  {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Sports Auto",
-    "id": 6,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-  {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Sports Auto",
-    "id": 7,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-  {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Sports Auto",
-    "id": 8,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-  {
-    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
-    "cat": "Sports Auto",
-    "id": 9,
-    "answers": [
-      {
-        "text": "Kylian Mbappé",
-        "value": false
-      },
-      {
-        "text": "Michaël Schumacher",
-        "value": false
-      },
-      {
-        "text": "Lewis Hamilton",
-        "value": true
-      },
-      {
-        "text": "Christophe Michalak",
-        "value": false
-      },
-    ]
-  },
-
-
-// POKEMON
-
-  {
-    "question": "Quel est le premier pokemon de Sacha ?",
-    "cat": "Pokémon",
+    "cat": "Musique",
     "id": 0,
     "answers": [
       {
-        "text": "Salamèche",
+        "text": "Kylian Mbappé",
         "value": false
       },
       {
-        "text": "Pikachu",
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
         "value": true
       },
       {
-        "text": "Carapuce",
-        "value": false
-      },
-      {
-        "text": "Bulbizarre",
+        "text": "Christophe Michalak",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le premier pokemon de Sacha ?",
-    "cat": "Pokémon",
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Musique",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Musique",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Musique",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Musique",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Musique",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Musique",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Musique",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel pilote de F1 est le plus titré de l'histoire ?",
+    "cat": "Musique",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Kylian Mbappé",
+        "value": false
+      },
+      {
+        "text": "Michaël Schumacher",
+        "value": false
+      },
+      {
+        "text": "Lewis Hamilton",
+        "value": true
+      },
+      {
+        "text": "Christophe Michalak",
+        "value": false
+      },
+    ]
+  },
+
+
+// Disney
+
+  {
+    "question": "Quel est le second film Disney juste après Blanche Neige ?",
+    "cat": "Disney",
+    "id": 0,
+    "answers": [
+      {
+        "text": "Cendrillon",
+        "value": false
+      },
+      {
+        "text": "Pinocchio",
+        "value": true
+      },
+      {
+        "text": "Peter Pan",
+        "value": false
+      },
+      {
+        "text": "Alice au Pays des Merveilles",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel dessin animé a fêté ses 70 ans en juillet 2021 ?",
+    "cat": "Disney",
     "id": 1,
     "answers": [
       {
-        "text": "Salamèche",
+        "text": "Blanche Neige et les sept nains",
         "value": false
       },
       {
-        "text": "Pikachu",
+        "text": "Le livre de la jungle",
+        "value": false
+      },
+      {
+        "text": "La petite sirène",
+        "value": false
+      },
+      {
+        "text": "Alice au Pays des Merveilles",
         "value": true
-      },
-      {
-        "text": "Carapuce",
-        "value": false
-      },
-      {
-        "text": "Bulbizarre",
-        "value": false
       },
     ]
   },
   {
-    "question": "Quel est le premier pokemon de Sacha ?",
-    "cat": "Pokémon",
+    "question": "Dans Les Aristochats, quel est le nom du 3ème chaton avec Marie et Toulouse ?",
+    "cat": "Disney",
     "id": 2,
     "answers": [
       {
-        "text": "Salamèche",
+        "text": "Duchesse",
         "value": false
       },
       {
-        "text": "Pikachu",
+        "text": "Berlioz",
         "value": true
       },
       {
-        "text": "Carapuce",
+        "text": "Napoléon",
         "value": false
       },
       {
-        "text": "Bulbizarre",
+        "text": "Lafayette",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le premier pokemon de Sacha ?",
-    "cat": "Pokémon",
+    "question": "Dans Robin des Bois de 1973 quel animal est Triste Sire alias Persifleur ?",
+    "cat": "Disney",
     "id": 3,
     "answers": [
       {
-        "text": "Salamèche",
+        "text": "Un Vautour",
         "value": false
       },
       {
-        "text": "Pikachu",
+        "text": "Un Ours",
+        "value": false
+      },
+      {
+        "text": "Un Serpent",
         "value": true
       },
       {
-        "text": "Carapuce",
-        "value": false
-      },
-      {
-        "text": "Bulbizarre",
+        "text": "Un Coq",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le premier pokemon de Sacha ?",
-    "cat": "Pokémon",
+    "question": "Dans quel film Disney peut-on rencontrer les personnages de Madame Samovar, Big Ben ou bien encore Plumette ?",
+    "cat": "Disney",
     "id": 4,
     "answers": [
       {
-        "text": "Salamèche",
+        "text": "Peter Pan",
         "value": false
       },
       {
-        "text": "Pikachu",
+        "text": "La Belle et la Bête",
         "value": true
       },
       {
-        "text": "Carapuce",
+        "text": "La Belle et le Clochard",
         "value": false
       },
       {
-        "text": "Bulbizarre",
+        "text": "Toy Story",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le premier pokemon de Sacha ?",
-    "cat": "Pokémon",
+    "question": "Dans quel lieu célèbre est situé l’association SOS Société où travaillent Bernard et Bianca ?",
+    "cat": "Disney",
     "id": 5,
     "answers": [
       {
-        "text": "Salamèche",
+        "text": "A la Maison Blanche",
         "value": false
       },
       {
-        "text": "Pikachu",
+        "text": "Au World Trade Center",
+        "value": false
+      },
+      {
+        "text": "Aux Nations Unies",
         "value": true
       },
       {
-        "text": "Carapuce",
-        "value": false
-      },
-      {
-        "text": "Bulbizarre",
+        "text": "A la Tour Eiffel",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le premier pokemon de Sacha ?",
-    "cat": "Pokémon",
+    "question": "Dans les 101 Dalmatiens de 1961 quel est le métier de Roger, le propriétaire de Pongo ?",
+    "cat": "Disney",
     "id": 6,
     "answers": [
       {
-        "text": "Salamèche",
-        "value": false
-      },
-      {
-        "text": "Pikachu",
+        "text": "Musicien",
         "value": true
       },
       {
-        "text": "Carapuce",
+        "text": "Ecrivain",
         "value": false
       },
       {
-        "text": "Bulbizarre",
+        "text": "Garagiste",
+        "value": false
+      },
+      {
+        "text": "Peintre",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le premier pokemon de Sacha ?",
-    "cat": "Pokémon",
+    "question": "Quel film à fait perdre plus 20 millions de dollars en 1985 et menacé l’avenir des studios Disney ?",
+    "cat": "Disney",
     "id": 7,
     "answers": [
       {
-        "text": "Salamèche",
+        "text": "Basil Détective Privé",
         "value": false
       },
       {
-        "text": "Pikachu",
+        "text": "Fantasia",
+        "value": false
+      },
+      {
+        "text": "L'étrange Noël de Monsieur Jack",
+        "value": false
+      },
+      {
+        "text": "Taram et le Chaudron magique",
         "value": true
-      },
-      {
-        "text": "Carapuce",
-        "value": false
-      },
-      {
-        "text": "Bulbizarre",
-        "value": false
       },
     ]
   },
   {
-    "question": "Quel est le premier pokemon de Sacha ?",
-    "cat": "Pokémon",
+    "question": "Quelles sont les couleurs de Polochon le poisson ami d’Ariel la Petite Sirène ?",
+    "cat": "Disney",
     "id": 8,
     "answers": [
       {
-        "text": "Salamèche",
+        "text": "Noir & Blanc",
         "value": false
       },
       {
-        "text": "Pikachu",
+        "text": "Vert & Bleu",
+        "value": false
+      },
+      {
+        "text": "Bleu & Violet",
+        "value": false
+      },
+      {
+        "text": "Jaune & Bleu",
+        "value": true
+      },
+    ]
+  },
+  {
+    "question": "Comment Raiponce assomme Flynn Rider lors de leur 1ère rencontre ?",
+    "cat": "Disney",
+    "id": 9,
+    "answers": [
+      {
+        "text": "Avec un coup de pied",
+        "value": false
+      },
+      {
+        "text": "Avec une poêle à frire",
         "value": true
       },
       {
-        "text": "Carapuce",
+        "text": "En lui tombant dessus",
         "value": false
       },
       {
-        "text": "Bulbizarre",
+        "text": "Avec une Enclume",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le premier pokemon de Sacha ?",
-    "cat": "Pokémon",
-    "id": 9,
+    "question": "Dans le film Zootopie, quel animal travaille dans l’administration ?",
+    "cat": "Disney",
+    "id": 10,
     "answers": [
       {
-        "text": "Salamèche",
-        "value": false
-      },
-      {
-        "text": "Pikachu",
+        "text": "Un Paresseux",
         "value": true
       },
       {
-        "text": "Carapuce",
+        "text": "Un Lama",
         "value": false
       },
       {
-        "text": "Bulbizarre",
+        "text": "Un Escargot",
         "value": false
+      },
+      {
+        "text": "Un Caniche",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Dans le dessin animé Aladdin, comment s'appelle le singe ?",
+    "cat": "Disney",
+    "id": 11,
+    "answers": [
+      {
+        "text": "Iago",
+        "value": false
+      },
+      {
+        "text": "Razoul",
+        "value": false
+      },
+      {
+        "text": "Simba",
+        "value": false
+      },
+      {
+        "text": "Abu",
+        "value": true
+      },
+    ]
+  },
+  {
+    "question": "Dans Le Roi Lion, quels noms portent les 3 hyènes de Scar ?",
+    "cat": "Disney",
+    "id": 12,
+    "answers": [
+      {
+        "text": "Clio, Baobab & Ned",
+        "value": false
+      },
+      {
+        "text": "Tutti, Rianni & Nudi",
+        "value": false
+      },
+      {
+        "text": "Shenzi, Banzaï & Ed",
+        "value": true
+      },
+      {
+        "text": "Riri, Fifi & Loulou",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Lequel de ces films est le plus ancien ?",
+    "cat": "Disney",
+    "id": 13,
+    "answers": [
+      {
+        "text": "Pocahontas",
+        "value": true
+      },
+      {
+        "text": "Le Bossu de Notre Dame",
+        "value": false
+      },
+      {
+        "text": "Hercules",
+        "value": false
+      },
+      {
+        "text": "1001 Pattes",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Laquelle de ces suites de films Disney n’existe pas ?",
+    "cat": "Disney",
+    "id": 14,
+    "answers": [
+      {
+        "text": "Le Livre de la Jungle 2",
+        "value": false
+      },
+      {
+        "text": "Bambi 2",
+        "value": false
+      },
+      {
+        "text": "Le Roi Lion 3",
+        "value": false
+      },
+      {
+        "text": "Blanche Neige et les sept nains 2",
+        "value": true
+      },
+    ]
+  },
+  {
+    "question": "Dans quel film, la princesse s'appelle Aurore ?",
+    "cat": "Disney",
+    "id": 15,
+    "answers": [
+      {
+        "text": "La Reines des Neiges",
+        "value": false
+      },
+      {
+        "text": "La Petite Sirène",
+        "value": false
+      },
+      {
+        "text": "La Belle au Bois Dormant",
+        "value": true
+      },
+      {
+        "text": "La Belle et la Bête",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel couleur est associé à la robe de Jasmine",
+    "cat": "Disney",
+    "id": 16,
+    "answers": [
+      {
+        "text": "Le Bleu",
+        "value": true
+      },
+      {
+        "text": "Le Violet",
+        "value": false
+      },
+      {
+        "text": "Le Rose",
+        "value": false
+      },
+      {
+        "text": "Le Vert",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le nom de la princesse dans La Princesse et la Grenouille ?",
+    "cat": "Disney",
+    "id": 17,
+    "answers": [
+      {
+        "text": "Naveen",
+        "value": false
+      },
+      {
+        "text": "Tiana",
+        "value": true
+      },
+      {
+        "text": "Evangéline",
+        "value": false
+      },
+      {
+        "text": "Charlotte",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quelle nouvelle princesse Disney s'est ajoutée à la liste en 2021 ?",
+    "cat": "Disney",
+    "id": 18,
+    "answers": [
+      {
+        "text": "Dua",
+        "value": false
+      },
+      {
+        "text": "Carla",
+        "value": false
+      },
+      {
+        "text": "Raya",
+        "value": true
+      },
+      {
+        "text": "Adele",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Qui chante 'Tu crois que la Terre t'appartient toute entière. Pour toi, ce n'est qu'un tapis de poussière' ?",
+    "cat": "Disney",
+    "id": 19,
+    "answers": [
+      {
+        "text": "Arial",
+        "value": false
+      },
+      {
+        "text": "Raiponce",
+        "value": false
+      },
+      {
+        "text": "Vaiana",
+        "value": false
+      },
+      {
+        "text": "Pocahontas",
+        "value": true
       },
     ]
   },
