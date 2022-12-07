@@ -504,232 +504,462 @@ var library = [
 // ANIMAUX
 
   {
-    "question": "Quel est le bébé de la vache ?",
+    "question": "Quel est l'aliment préféré du Koala ?",
     "cat": "Animaux",
     "id": 0,
     "answers": [
       {
-        "text": "Ecremeuh",
+        "text": "L'aloe vera",
         "value": false
       },
       {
-        "text": "Emmanuel Macron",
+        "text": "Le bambou",
         "value": false
       },
       {
-        "text": "Le Veau",
+        "text": "L'eucalyptus",
         "value": true
       },
       {
-        "text": "Booba",
+        "text": "La passiflore",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le bébé de la vache ?",
+    "question": "Combien de doigts, les Chiens possèdent-ils au total ?",
     "cat": "Animaux",
     "id": 1,
     "answers": [
       {
-        "text": "Ecremeuh",
+        "text": "14",
         "value": false
       },
       {
-        "text": "Emmanuel Macron",
+        "text": "16",
         "value": false
       },
       {
-        "text": "Le Veau",
+        "text": "18",
         "value": true
       },
       {
-        "text": "Booba",
+        "text": "20",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le bébé de la vache ?",
+    "question": "Quelle quantité de Plancton, une Baleine bleue mange-t-elle chaque jour ?",
     "cat": "Animaux",
     "id": 2,
     "answers": [
       {
-        "text": "Ecremeuh",
+        "text": "500 kg",
         "value": false
       },
       {
-        "text": "Emmanuel Macron",
+        "text": "1 500 kg",
         "value": false
       },
       {
-        "text": "Le Veau",
+        "text": "5 000 kg",
+        "value": false
+      },
+      {
+        "text": "15 000 kg",
         "value": true
-      },
-      {
-        "text": "Booba",
-        "value": false
       },
     ]
   },
   {
-    "question": "Quel est le bébé de la vache ?",
+    "question": "Quel est le nom du cri du Dindon ?",
     "cat": "Animaux",
     "id": 3,
     "answers": [
       {
-        "text": "Ecremeuh",
+        "text": "il blatère",
         "value": false
       },
       {
-        "text": "Emmanuel Macron",
+        "text": "il coqueline",
         "value": false
       },
       {
-        "text": "Le Veau",
+        "text": "il tridule",
+        "value": false
+      },
+      {
+        "text": "il glougloute",
         "value": true
-      },
-      {
-        "text": "Booba",
-        "value": false
       },
     ]
   },
   {
-    "question": "Quel est le bébé de la vache ?",
+    "question": "Combien d'oeufs une jeune Poule peut pondre par an ?",
     "cat": "Animaux",
     "id": 4,
     "answers": [
       {
-        "text": "Ecremeuh",
+        "text": "150 à 180 oeufs",
         "value": false
       },
       {
-        "text": "Emmanuel Macron",
-        "value": false
-      },
-      {
-        "text": "Le Veau",
+        "text": "230 à 260 oeufs",
         "value": true
       },
       {
-        "text": "Booba",
+        "text": "320 à 350 oeufs",
+        "value": false
+      },
+      {
+        "text": "Les Poules ne pondent pas d'oeufs",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le bébé de la vache ?",
+    "question": "Lequel de ces animaux n'est pas carnivore ?",
     "cat": "Animaux",
     "id": 5,
     "answers": [
       {
-        "text": "Ecremeuh",
+        "text": "L'Ours blanc",
         "value": false
       },
       {
-        "text": "Emmanuel Macron",
-        "value": false
-      },
-      {
-        "text": "Le Veau",
+        "text": "Le Caribou",
         "value": true
       },
       {
-        "text": "Booba",
+        "text": "Le Dauphin",
+        "value": false
+      },
+      {
+        "text": "Le Suricate",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le bébé de la vache ?",
+    "question": "Quel aliment est toxique pour les Chats ?",
     "cat": "Animaux",
     "id": 6,
     "answers": [
       {
-        "text": "Ecremeuh",
-        "value": false
-      },
-      {
-        "text": "Emmanuel Macron",
-        "value": false
-      },
-      {
-        "text": "Le Veau",
+        "text": "L'avocat",
         "value": true
       },
       {
-        "text": "Booba",
+        "text": "Le thon",
+        "value": false
+      },
+      {
+        "text": "La pomme",
+        "value": false
+      },
+      {
+        "text": "La carotte",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le bébé de la vache ?",
+    "question": "Combien de points noirs, les Coccinelles les plus courantes d’Europe, ont-elles sur le dos ?",
     "cat": "Animaux",
     "id": 7,
     "answers": [
       {
-        "text": "Ecremeuh",
-        "value": false
-      },
-      {
-        "text": "Emmanuel Macron",
-        "value": false
-      },
-      {
-        "text": "Le Veau",
+        "text": "7",
         "value": true
       },
       {
-        "text": "Booba",
+        "text": "9",
+        "value": false
+      },
+      {
+        "text": "6",
+        "value": false
+      },
+      {
+        "text": "8",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le bébé de la vache ?",
+    "question": "A quel famille appartient le Lion de mer?",
     "cat": "Animaux",
     "id": 8,
     "answers": [
       {
-        "text": "Ecremeuh",
-        "value": false
-      },
-      {
-        "text": "Emmanuel Macron",
-        "value": false
-      },
-      {
-        "text": "Le Veau",
+        "text": "Les otaries",
         "value": true
       },
       {
-        "text": "Booba",
+        "text": "Les phoques",
+        "value": false
+      },
+      {
+        "text": "Les manchots",
+        "value": false
+      },
+      {
+        "text": "Les morses",
         "value": false
       },
     ]
   },
   {
-    "question": "Quel est le bébé de la vache ?",
+    "question": "Quel est la durée de vie moyenne d'une Mouche ?",
     "cat": "Animaux",
     "id": 9,
     "answers": [
       {
-        "text": "Ecremeuh",
+        "text": "3 jours",
         "value": false
       },
       {
-        "text": "Emmanuel Macron",
+        "text": "10 jours",
         "value": false
       },
       {
-        "text": "Le Veau",
+        "text": "35 jours",
+        "value": false
+      },
+      {
+        "text": "70 jours",
+        "value": true
+      },
+    ]
+  },
+  {
+    "question": "Laquelle de ces espèces d’oiseaux n’est pas un Perroquet ?",
+    "cat": "Animaux",
+    "id": 10,
+    "answers": [
+      {
+        "text": "Les Cacatoès",
+        "value": false
+      },
+      {
+        "text": "Les Perruches",
+        "value": false
+      },
+      {
+        "text": "Les Aras",
+        "value": false
+      },
+      {
+        "text": "Les Quetzals",
+        "value": true
+      },
+    ]
+  },
+  {
+    "question": "Dans quelle famille est classé l’Hippocampe ?",
+    "cat": "Animaux",
+    "id": 11,
+    "answers": [
+      {
+        "text": "Les Crustacés",
+        "value": false
+      },
+      {
+        "text": "Les Poissons",
         "value": true
       },
       {
-        "text": "Booba",
+        "text": "Les mammifères",
         "value": false
+      },
+      {
+        "text": "Les myriapodes",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le nom du cri de la Grenouille ?",
+    "cat": "Animaux",
+    "id": 12,
+    "answers": [
+      {
+        "text": "Le coassement",
+        "value": true
+      },
+      {
+        "text": "Le croassement",
+        "value": false
+      },
+      {
+        "text": "Le craquètement",
+        "value": false
+      },
+      {
+        "text": "Le cagnètement",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Comment appelle-t-on le petit du corbeau ?",
+    "cat": "Animaux",
+    "id": 13,
+    "answers": [
+      {
+        "text": "Un Corbrisseau",
+        "value": false
+      },
+      {
+        "text": "Un Corbeau",
+        "value": false
+      },
+      {
+        "text": "Un Corbineau",
+        "value": false
+      },
+      {
+        "text": "Un Corbillat",
+        "value": true
+      },
+    ]
+  },
+  {
+    "question": "En moyenne, quelle est la distance parcourue par un escargot en 1 heure ?",
+    "cat": "Animaux",
+    "id": 14,
+    "answers": [
+      {
+        "text": "5 mètres",
+        "value": false
+      },
+      {
+        "text": "9 mètres",
+        "value": true
+      },
+      {
+        "text": "16 mètres",
+        "value": false
+      },
+      {
+        "text": "25 mètres",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Combien de bras possède un Poulpe ?",
+    "cat": "Animaux",
+    "id": 15,
+    "answers": [
+      {
+        "text": "4",
+        "value": false
+      },
+      {
+        "text": "6",
+        "value": false
+      },
+      {
+        "text": "8",
+        "value": true
+      },
+      {
+        "text": "10",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel est le nom utilisé pour désigner le cri d’un Chiot ?",
+    "cat": "Animaux",
+    "id": 16,
+    "answers": [
+      {
+        "text": "Le jappement",
+        "value": true
+      },
+      {
+        "text": "Le brame",
+        "value": false
+      },
+      {
+        "text": "Le couinement",
+        "value": false
+      },
+      {
+        "text": "Le piaulement",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quelle maladie a été transmise à l’homme par le Rat et a fait des millions de morts au Moyen-âge ?",
+    "cat": "Animaux",
+    "id": 17,
+    "answers": [
+      {
+        "text": "Le scorbut",
+        "value": false
+      },
+      {
+        "text": "La peste",
+        "value": true
+      },
+      {
+        "text": "La gale",
+        "value": false
+      },
+      {
+        "text": "Le choléra",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Sous quel nom est aussi connu le Cobaye ?",
+    "cat": "Animaux",
+    "id": 18,
+    "answers": [
+      {
+        "text": "Le Cochon d'Inde",
+        "value": true
+      },
+      {
+        "text": "Le Hamster",
+        "value": false
+      },
+      {
+        "text": "La Souris blanche",
+        "value": false
+      },
+      {
+        "text": "La Gerbille",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quel animal était considéré comme une créature diabolique au Moyen Âge et a été exterminé en Europe avant d’être réhabilité ?",
+    "cat": "Animaux",
+    "id": 19,
+    "answers": [
+      {
+        "text": "Le Renard",
+        "value": false
+      },
+      {
+        "text": "La Vipère",
+        "value": false
+      },
+      {
+        "text": "Le Lynx",
+        "value": false
+      },
+      {
+        "text": "Le chat",
+        "value": true
       },
     ]
   },
