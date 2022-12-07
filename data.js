@@ -41,29 +41,28 @@ var library = [
     ]
   },
   {
-    "question": "Quels est le surnoms de l'équipe national des Pays-bas ?",
+    "question": "Quel joueur a gagné le trophée du ballon d'or 2018 ?",
     "cat": "Football",
     "id": 1,
     "answers": [
       {
-        "text": "Les Raisins",
+        "text": "C.Ronaldo",
         "value": false
       },
       {
-        "text": "Les Pamplemousses",
-        "value": false
-      },
-      {
-        "text": "Les Oranjes",
+        "text": "L.Modric",
         "value": true
       },
       {
-        "text": "Les Mandarines",
+        "text": "L.Messi",
+        "value": false
+      },
+      {
+        "text": "M.Salah",
         "value": false
       },
     ]
   },
-
   {
     "question": "Dans quel club n'a jamais joué Neymar ?",
     "cat": "Football",
@@ -245,6 +244,258 @@ var library = [
       {
         "text": "Neal Maupay",
         "value": false
+      },
+    ]
+  },
+  {
+    "question": "Quelles équipes ont été promues en Ligue 1 Uber Eats pour la saison 2020-2021 ?",
+    "cat": "Football",
+    "id": 10,
+    "answers": [
+      {
+        "text": "Lorient & Auxerre",
+        "value": false
+      },
+      {
+        "text": "Lens et Le Havre",
+        "value": false
+      },
+      {
+        "text": "Monaco & Toulouse",
+        "value": false
+      },
+      {
+        "text": "Lorient & Lens",
+        "value": true
+      },
+  },
+  {
+    "question": "Quel joueur allemand a inscrit 16 buts en phase finale de Coupe du monde ?",
+    "cat": "Football",
+    "id": 10,
+    "answers": [
+      {
+        "text": "Miroslav Klose",
+        "value": true
+      },
+      {
+        "text": "Manuel Neuer",
+        "value": false
+      },
+      {
+        "text": "Marco Reuse",
+        "value": false
+      },
+      {
+        "text": "Arjen Robben",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "À quel âge Raphaël Varane a-t-il débuté en équipe de France en 2013 ?",
+    "cat": "Football",
+    "id": 11,
+    "answers": [
+      {
+        "text": "16 ans",
+        "value": false
+      },
+      {
+        "text": "18 ans",
+        "value": false
+      },
+      {
+        "text": "20 ans",
+        "value": true
+      },
+      {
+        "text": "22 ans",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Lequel de ces pays n'a pas remporté la Coupe d'Afrique des nations entre 2010 et 2020 ?",
+    "cat": "Football",
+    "id": 12,
+    "answers": [
+      {
+        "text": "Côte d'Ivoire",
+        "value": false
+      },
+      {
+        "text": "Nigéria",
+        "value": false
+      },
+      {
+        "text": "Algérie",
+        "value": false
+      },
+      {
+        "text": "Afrique du Sud",
+        "value": true
+      },
+    ]
+  },
+  {
+    "question": "De quel autre sport l'attaquant Zlatan Ibrahimovic est-il ceinture noire ?",
+    "cat": "Football",
+    "id": 13,
+    "answers": [
+      {
+        "text": "Taekwondo",
+        "value": true
+      },
+      {
+        "text": "Judo",
+        "value": false
+      },
+      {
+        "text": "Karaté",
+        "value": false
+      },
+      {
+        "text": "Kung-Fu",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Dans quel club improbable le Brésilien Adriano a-t-il failli signer en décembre 2014 ?",
+    "cat": "Football",
+    "id": 14,
+    "answers": [
+      {
+        "text": "Le Havre",
+        "value": true
+      },
+      {
+        "text": "Concarneau",
+        "value": false
+      },
+      {
+        "text": "Châteauroux",
+        "value": false
+      },
+      {
+        "text": "Angers",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Sur quel score la France a-t-elle décroché la plus large victoire de son histoire ?",
+    "cat": "Football",
+    "id": 15,
+    "answers": [
+      {
+        "text": "6 - 0",
+        "value": false
+      },
+      {
+        "text": "8 - 0",
+        "value": false
+      },
+      {
+        "text": "10 - 0",
+        "value": true
+      },
+      {
+        "text": "12 - 0",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Qui a été la première dirigeante féminine élue à la FFF ?",
+    "cat": "Football",
+    "id": 16,
+    "answers": [
+      {
+        "text": "Marilou Duringer",
+        "value": true
+      },
+      {
+        "text": "Corinne Diacre",
+        "value": false
+      },
+      {
+        "text": "Adriana Karembeu",
+        "value": false
+      },
+      {
+        "text": "Vanessa Paradis",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Combien de buts Michel Platini a-t-il inscrits lors de l’Euro 1984 ?",
+    "cat": "Football",
+    "id": 17,
+    "answers": [
+      {
+        "text": "7",
+        "value": false
+      },
+      {
+        "text": "8",
+        "value": false
+      },
+      {
+        "text": "9",
+        "value": true
+      },
+      {
+        "text": "10",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Avant l’utilisation du sifflet, quel objet l’arbitre utilisait-il pour signaler ses décisions ?",
+    "cat": "Football",
+    "id": 18,
+    "answers": [
+      {
+        "text": "Une corne de brune",
+        "value": false
+      },
+      {
+        "text": "Un mouchoir blanc",
+        "value": true
+      },
+      {
+        "text": "Une baguette magique",
+        "value": false
+      },
+      {
+        "text": "Une casquette rouge",
+        "value": false
+      },
+    ]
+  },
+  {
+    "question": "Dans quelle grande ville la FFF a-t-elle ouvert une académie de football pour les jeunes en 2019 ?",
+    "cat": "Football",
+    "id": 19,
+    "answers": [
+      {
+        "text": "Rio de Janeiro",
+        "value": false
+      },
+      {
+        "text": "Moscou",
+        "value": false
+      },
+      {
+        "text": "Tokyo",
+        "value": false
+      },
+      {
+        "text": "Ney-York",
+        "value": true
       },
     ]
   },
