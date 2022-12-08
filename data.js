@@ -1,15 +1,15 @@
 var end_commentary_data = [
-  "0",
+  "La tête à Toto",
   "Au moins on ne peut pas dire que tu ne sais rien...",
-  "2",
-  "3",
-  "4",
-  "5",
-  "6",
-  "7",
-  "8",
-  "9",
-  "10"
+  "Tu n'es pas un expert...",
+  "Tu n'es pas un expert...",
+  "Bon pour les rattrapages..",
+  "Bravo tu as le bac... Ah ba non en fait.",
+  "Correct sans plus.",
+  "C'est prometteur !",
+  "La il y a du niveau !",
+  "Rien n'est parfait.. même moi. ",
+  "Serais-tu Akinator ?"
 ]
 
 
