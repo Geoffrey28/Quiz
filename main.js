@@ -19,6 +19,7 @@ var step = 1;
 var finalScore = document.querySelector('.end_result');
 var endCommentary = document.querySelector('.end_commentary_text');
 var endButton = document.querySelector('.end_button');
+var loader;
 
 window.onload = selectCat(), runGame();
 
@@ -59,17 +60,31 @@ function displayGame() {
 function runGame() {
   for (var i = 0; i < answers.length; i++) {
     answers[i].addEventListener('click', function() {
-      verify = this.children[1].textContent;
-      if (verify === "true") {
-        counterScore++;
-        addScore();
-        displayGame();
-      } else {
-        displayGame();
+      if(this.children[1].textContent != "") {
+         verify = this.children[1].textContent;
+         if (verify === "true") {
+           counterScore++;
+           addScore();
+         }
+         for (var u = 0; u < answers.length; u++) {
+           answers[u].children[1].textContent = "";
+         }
+         switchAnim();
+         setTimeout(function() {
+           displayGame();
+           stepCount();
+         }, 1500);
+         setTimeout(switchAnim, 3000);
       }
-      stepCount();
     });
   }
+}
+
+function switchAnim() {
+  for (var y = 0; y < answers.length; y++) {
+    answers[y].classList.toggle('switch');
+  }
+  question.classList.toggle('switch');
 }
 
 function selectCat() {
@@ -115,4 +130,10 @@ function stepCount() {
     finishGame()
   }
   steps.children[0].textContent = step;
+}
+
+function loader() {
+  loader = setInterval( function() {
+
+  }, 1000);
 }

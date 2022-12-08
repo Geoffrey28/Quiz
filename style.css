@@ -6,6 +6,35 @@ body, html {
   overflow: hidden;
   width: 100%;
   height: 100vh;
+  background-color: #0D1A7E;
+}
+
+@keyframes switchAnim {
+    0% {
+      opacity: 100%;
+    } 40% {
+      opacity: 0%;
+    } 60% {
+        opacity: 0%;
+    } 100% {
+      opacity: 100%;
+    }
+}
+
+@keyframes show {
+  from {
+    opacity: 0%;
+  } to {
+    opacity: 100%;
+  }
+}
+
+@keyframes hideAnim {
+  from {
+    opacity: 100%;
+  } to {
+    opacity: 0%;
+  }
 }
 
 * {
@@ -13,11 +42,16 @@ body, html {
   color: #E4E6F3;
 }
 
+.switch {
+  animation: switchAnim 3s linear;
+}
+
 .hide {
   display: none;
 }
 
 .home, .game, .end {
+  animation: show 3s linear;
   height: 100vh;
   width: 100%;
   text-align: center;
