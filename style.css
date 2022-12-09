@@ -176,3 +176,38 @@ body, html {
   font-size: 1rem;
   margin: 0 10rem 5rem 10rem;
 }
+
+@media (max-width: 999px) {
+  .home_select {
+    margin: 6rem 5rem;
+  }
+
+ .home_select_items {
+   font-size: 1.2rem;
+ }
+}
+
+@media (max-width: 750px) {
+  .home_select {
+    margin: 6rem 3rem;
+  }
+
+ .home_select_items {
+   font-size: 1rem;
+ }
+}
+
+@media (max-width: 580px) {
+  .home_title, .game_cat {
+    font-size: 3rem;
+  }
+
+  .home_select {
+    margin: 3rem 6rem;
+    columns: 2;
+  }
+
+ .home_select_items {
+   font-size: 0.8rem;
+ }
+}
