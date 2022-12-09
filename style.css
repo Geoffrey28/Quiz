@@ -124,7 +124,7 @@ body, html {
 
 .game_question {
   font-size: 1rem;
-  margin: 8rem 15rem 4rem 15rem;
+  margin: 4rem 15rem 4rem 15rem;
 }
 
 .game_answers {
@@ -177,13 +177,27 @@ body, html {
   margin: 0 10rem 5rem 10rem;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1200px) {
   .home_select {
     margin: 6rem 5rem;
   }
 
  .home_select_items {
    font-size: 1.2rem;
+ }
+
+ .game_question {
+   margin: 4rem 8rem;
+ }
+
+ .game_answers {
+   margin: 0 10rem;
+   columns: 2;
+ }
+
+ .game_score {
+   margin: 0 10rem;
+   font-size: 2rem;
  }
 }
 
@@ -194,6 +208,14 @@ body, html {
 
  .home_select_items {
    font-size: 1rem;
+ }
+
+ .game_answers {
+   margin: 0 5rem;
+ }
+
+ .game_question {
+   margin: 4rem 4rem;
  }
 }
 
@@ -209,5 +231,31 @@ body, html {
 
  .home_select_items {
    font-size: 0.8rem;
+ }
+
+ .game_question {
+   margin: 2rem 4rem;
+ }
+
+ .game_answers {
+   columns: 1;
+ }
+
+ .end_result {
+   font-size: 3rem;
+   margin: 6rem 0;
+ }
+
+ .end_result_text {
+   font-size: 1rem;
+ }
+
+ .end_commentary {
+   font-size: 0.8rem;
+   margin: 0 8rem 5rem 8rem;
+ }
+
+ .end_button {
+   font-size: 1rem;
  }
 }
