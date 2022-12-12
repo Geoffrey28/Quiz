@@ -241,6 +241,11 @@ body, html {
    columns: 1;
  }
 
+ .game_answers_items:hover {
+   background-color: #1F67BF;
+   box-shadow: none;
+ }
+
  .end_result {
    font-size: 3rem;
    margin: 6rem 0;
