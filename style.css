@@ -219,7 +219,7 @@ body, html {
  }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 580px) and (max-device-width: 580px) {
   .home_title, .game_cat {
     font-size: 3rem;
   }
