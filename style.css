@@ -220,9 +220,14 @@ body, html {
 }
 
 @media (max-device-width: 580px) {
+  .home_title, .game_cat {
+    margin: 10rem 0;
+    font-size: 6rem;
+  }
 
   .home_select {
     columns: 2;
+    margin-bottom: 20rem;
   }
 
  .game_answers {
@@ -232,5 +237,35 @@ body, html {
  .game_answers_items:hover {
    background-color: #1F67BF;
    box-shadow: none;
+ }
+
+ .game_question {
+   font-size: 2rem;
+ }
+
+ .game_answers {
+   margin: 4rem 6rem;
+ }
+
+ .game_answers_items {
+   font-size: 2rem;
+   margin: 2rem 0;
+ }
+
+ .end_result {
+   font-size: 8rem;
+ }
+
+ .end_result_text {
+   font-size: 4rem;
+ }
+
+ .end_commentary {
+   font-size: 2rem;
+ }
+
+ .home_start, .end_button {
+   font-size: 3rem;
+   width: 15rem;
  }
 }
