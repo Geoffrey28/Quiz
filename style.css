@@ -123,7 +123,7 @@ body, html {
 }
 
 .game_question {
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 4rem 15rem 4rem 15rem;
 }
 
@@ -221,13 +221,21 @@ body, html {
 
 @media (max-device-width: 580px) {
   .home_title, .game_cat {
-    margin: 10rem 0;
-    font-size: 6rem;
+    margin: 8rem 0;
+    font-size: 5rem;
   }
 
   .home_select {
     columns: 2;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
+  }
+
+  .home_text {
+    font-size: 2.5rem;
+  }
+
+  .home_select_items, .end_commentary_text, .game_score {
+    font-size: 3rem;
   }
 
  .game_answers {
@@ -240,7 +248,7 @@ body, html {
  }
 
  .game_question {
-   font-size: 2rem;
+   font-size: 3rem;
  }
 
  .game_answers {
@@ -248,7 +256,7 @@ body, html {
  }
 
  .game_answers_items {
-   font-size: 2rem;
+   font-size: 3rem;
    margin: 2rem 0;
  }
 
