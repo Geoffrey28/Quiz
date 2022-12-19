@@ -99,7 +99,7 @@ body, html {
   width: 100%;
 }
 
-.home_start, .end_button {
+.home_start, .switch_button, .end_button {
   width: 10rem;
   height: 5rem;
   font-size: 2rem;
@@ -109,7 +109,7 @@ body, html {
   cursor: pointer;
 }
 
-.home_start:hover, .end_button:hover {
+.home_start:hover, .switch_button:hover,.end_button:hover {
   box-shadow: 5px -5px 10px #27E527;
   background-color: #27E527;
 }
@@ -120,6 +120,8 @@ body, html {
 
 .game_head {
   font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .game_question {
@@ -129,7 +131,7 @@ body, html {
 
 .game_answers {
   font-size: 1rem;
-  margin: 0 20rem;
+  margin: 0 20rem 5rem 20rem;
   columns: 2;
   column-gap: 2rem;
   cursor: pointer;
@@ -145,8 +147,12 @@ body, html {
   background-color: #1F67BF;
 }
 
+.blockClick {
+  pointer-events: none;
+}
+
 .game_answers_items:hover {
-  box-shadow: 5px -5px 10px #27E527;
+  box-shadow: 5px -5px 20px black;
   background-color: #27E527;
 }
 
@@ -156,11 +162,6 @@ body, html {
 
 .hidden_value {
   display: none;
-}
-
-.game_score {
-  margin: 0 20rem;
-  font-size: 3rem;
 }
 
 .end_result {
@@ -193,11 +194,6 @@ body, html {
  .game_answers {
    margin: 0 10rem;
    columns: 2;
- }
-
- .game_score {
-   margin: 0 10rem;
-   font-size: 2rem;
  }
 }
 
@@ -272,7 +268,7 @@ body, html {
    font-size: 2rem;
  }
 
- .home_start, .end_button {
+ .home_start, .switch_button, .end_button {
    font-size: 3rem;
    width: 15rem;
  }

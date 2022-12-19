@@ -7,12 +7,13 @@ var alert = document.querySelector('.alert_message');
 var gameCat = document.querySelector('.game_cat');
 var question = document.querySelector('.game_question');
 var answers = document.querySelectorAll('.game_answers_items');
+var switchButton = document.querySelector('.switch_button');
 var hiddenValues = document.querySelectorAll('.hidden_value');
 var selectedCatQuestions = [];
 var selectedQuestion = library[1];
 var verify;
 var noDoublon = [];
-var score = document.querySelector('.game_score_text');
+var score = document.querySelector('.game_score');
 var counterScore = 0;
 var steps = document.querySelector('.game_step');
 var step = 1;
@@ -21,7 +22,7 @@ var endCommentary = document.querySelector('.end_commentary_text');
 var endButton = document.querySelector('.end_button');
 var loader;
 
-window.onload = selectCat(), runGame();
+window.onload = selectCat(), switchQuestion(), runGame();
 
 start.addEventListener('click', function() {
   if (selectedCatQuestions.length > 0) {
@@ -44,6 +45,10 @@ endButton.addEventListener('click', function() {
 })
 
 function displayGame() {
+  for (let g = 0; g < answers.length; g++) {
+    answers[g].style.background = "#1F67BF";
+    
+  }
   var rand = Math.floor(Math.random()*selectedCatQuestions.length);
   while(noDoublon.includes(rand) & step < 10) {
     rand = Math.floor(Math.random()*selectedCatQuestions.length);
@@ -63,21 +68,40 @@ function runGame() {
       if(this.children[1].textContent != "") {
          verify = this.children[1].textContent;
          if (verify === "true") {
-           counterScore++;
-           addScore();
+          counterScore++;
+          addScore();
+          this.style.background = '#27E527';
+         } else {
+          this.style.background = '#D32B2B';
+          showGoodAnswer();
          }
          for (var u = 0; u < answers.length; u++) {
            answers[u].children[1].textContent = "";
          }
-         switchAnim();
-         setTimeout(function() {
-           displayGame();
-           stepCount();
-         }, 1500);
-         setTimeout(switchAnim, 3000);
       }
+      switchButton.classList.remove('hide');
     });
   }
+}
+
+function showGoodAnswer() {
+  for (var h = 0; h < answers.length; h++) {
+    if (answers[h].children[1].textContent === "true") {
+      answers[h].style.background = '#27E527';
+    } 
+  }
+}
+
+function switchQuestion() {
+  switchButton.addEventListener('click', function() {
+    setTimeout(function() {
+      displayGame();
+      stepCount();
+    }, 1500);
+    setTimeout(switchAnim, 3000);
+    switchButton.classList.add('hide');
+    switchAnim();
+  });
 }
 
 function switchAnim() {
@@ -130,10 +154,4 @@ function stepCount() {
     finishGame()
   }
   steps.children[0].textContent = step;
-}
-
-function loader() {
-  loader = setInterval( function() {
-
-  }, 1000);
 }
